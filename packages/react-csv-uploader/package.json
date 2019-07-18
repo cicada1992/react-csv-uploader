@@ -1,0 +1,48 @@
+{
+  "name": "react-csv-uploader",
+  "version": "0.0.1",
+  "description": "This is react-csv-uploader by dropping and opening file loader",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "./node_modules/.bin/webpack-cli --config webpack.config.js --progress"
+  },
+  "keywords": [
+    "react-csv-uploader",
+    "react-csv-handler",
+    "react-csv"
+  ],
+  "author": "Youngjae Han <han6318@naver.com>",
+  "license": "ISC",
+  "dependencies": {
+    "autobind-decorator": "^2.4.0",
+    "papaparse": "^5.0.0",
+    "react-dropzone": "4.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "@types/papaparse": "^5.0.1",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-dropzone": "4.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "fork-ts-checker-webpack-plugin": "^1.3.7",
+    "prettier": "^1.18.2",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "react-storybook-decorator-background": "^1.0.5",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
