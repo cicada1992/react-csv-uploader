@@ -1,5 +1,5 @@
 # react-csv-uploader
-This is react-csv-uploader by dropping and opening file loader
+This is react-csv-uploader by dropping and opening file loader.
 
 ## Getting Started
 ```
