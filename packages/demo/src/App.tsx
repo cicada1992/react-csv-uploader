@@ -29,18 +29,14 @@ class App extends React.Component<AppProps, AppState> {
     return (
       <Container>
         <CsvDropzone onFileLoad={this.handleFileLoad}>
-          {({ openUploader }) => (
-            <>
-              <CsvTable data={data} openUploader={openUploader} />
-            </>
-          )}
+          {({ openUploader }) => <CsvTable data={data} openUploader={openUploader} />}
         </CsvDropzone>
       </Container>
     );
   }
 
   @autobind
-  private async handleFileLoad(data: any[]) {
+  private handleFileLoad(data: any[]) {
     const mapped = _.map(data, ([id, name, objective, conversions, cvr]) => ({
       id,
       name,
