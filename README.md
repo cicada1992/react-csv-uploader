@@ -12,8 +12,8 @@ import { CsvDropzone } from 'react-csv-uploader';
 https://cicada1992.github.io/react-csv-uploader/
 
 Expected csv file shape for demo
-| A | B | C | D |
-|:---|:---|:---:|:---|
+| A | B | C | D | E
+|:---|:---|:---:|:---:|:---:|
 |id-1 | name-1 | A | 10 | 1
 |id-2 | name-2 | B | 3 | 2
 
