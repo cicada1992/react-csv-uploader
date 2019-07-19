@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Table, TableColumn } from 'react-compact-table';
 import autobind from 'autobind-decorator';
+import React from 'react';
+import { Table, TableColumn } from 'react-compact-table';
+import styled from 'styled-components';
 
 const DropArea = styled.div`
   display: flex;

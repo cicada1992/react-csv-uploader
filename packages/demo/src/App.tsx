@@ -1,10 +1,10 @@
+import autobind from 'autobind-decorator';
+import _ from 'lodash';
 import React from 'react';
 import { CsvDropzone } from 'react-csv-uploader';
 import styled from 'styled-components';
-import autobind from 'autobind-decorator';
 
 import CsvTable from './CsvTable';
-import _ from 'lodash';
 
 const Container = styled.div`
   position: relative;
@@ -44,6 +44,7 @@ class App extends React.Component<AppProps, AppState> {
       conversions,
       cvr
     }));
+
     this.setState({ data: mapped });
   }
 }
