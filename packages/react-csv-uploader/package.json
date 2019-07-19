@@ -1,6 +1,6 @@
 {
   "name": "react-csv-uploader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This is react-csv-uploader by dropping and opening file loader",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,6 +12,14 @@
     "react-csv-handler",
     "react-csv"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cicada1992/react-csv-uploader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cicada1992/react-csv-uploader/issues"
+  },
+  "homepage": "https://github.com/cicada1992/react-csv-uploadere#readme",
   "author": "Youngjae Han <han6318@naver.com>",
   "license": "ISC",
   "dependencies": {
