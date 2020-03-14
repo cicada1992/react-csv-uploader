@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/cicada1992/react-csv-uploader/issues"
   },
-  "homepage": "https://github.com/cicada1992/react-csv-uploadere#readme",
+  "homepage": "https://github.com/cicada1992/react-csv-uploader#readme",
   "author": "Youngjae Han <han6318@naver.com>",
   "license": "ISC",
   "dependencies": {
